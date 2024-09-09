@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MARCO-POLO</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+			}
+			#data-container {
+				margin-top: 20px;
+			}
+			.item {
+				display: flex;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+			img {
+				width: 30px;
+				height: 30px;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>MARCO-POLO GAME</h1>
+		<div id="user">
+			<ul id="usersList"></ul>
+		</div>
+		<button id="users">users</button>
+		<div id="assignation"></div>
+
+		<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+		<script src="assignation.js"></script>
+	</body>
+</html>
